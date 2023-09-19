@@ -7,8 +7,7 @@
 .square {
 	width: 20px; 
 	  height: 20px; 
-  background-color: lightgray; 
-
+  background-color: lightgray rgb(29, 29,29); 
   transition: background-color 1s; 
 }
 
