@@ -1,13 +1,17 @@
 .container {
+	width:100%;
 	background-color: black;
   display: grid;
   grid-template-columns: repeat(40, 1fr); 
+	grid-template-rows: repeat(20, 1fr);
+	
 }
 
 .square {
-	width: 20px; 
-	  height: 20px; 
-  background-color: lightgray rgb(29, 29,29); 
+	width: 11px; 
+	  height: 11px; 
+	margin:1px;
+  background:#1D1D1D;
   transition: background-color 1s; 
 }
 
